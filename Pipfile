@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+pytest = "*"
+jwt = "*"
+pyjwt = "*"
+pinecone-client = "*"
+openai = "*"
+instructor = "*"
+websockets = "*"
+python-socketio = {extras = ["client"], version = "*"}
+fastapi-socketio = "*"
+langchain = "*"
+pydantic = {extras = ["email"], version = "*"}
+python-jose = {extras = ["cryptography"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
