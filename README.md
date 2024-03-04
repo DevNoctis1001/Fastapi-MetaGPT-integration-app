@@ -1,10 +1,10 @@
-# ProjectX: The Future of AI-Driven Development
+# The Future of AI-Driven Development
 
 Run: uvicorn app.main:app --reload
 
 ## Overview
 
-ProjectX stands at the forefront of innovation, seamlessly blending artificial intelligence with software development. This application is not just a tool; it's a revolution in how we approach coding and project management. By integrating directly with GitHub, it offers a unique platform where AI becomes your development partner, capable of generating code, managing your repositories, and automating your development cycles.
+This application is not just a tool; it's a revolution in how we approach coding and project management. By integrating directly with GitHub, it offers a unique platform where AI becomes your development partner, capable of generating code, managing your repositories, and automating your development cycles.
 
 ## Key Features
 
