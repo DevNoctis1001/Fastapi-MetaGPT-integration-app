@@ -1,0 +1,101 @@
+// {
+//   "objective: <string>,
+//   "questions": [
+//       {
+//           "tag": <string>,
+//           "question": <string>,
+//           "answer": <string>,
+//           "choices":
+//           {
+//               "default": [<string>, <string>, ...]
+//               "2": [<string>, <string>, ...]
+//           }
+//       },
+//       {
+//           "tag": <string>,
+//           "question": <string>,
+//           "answer": <string>,
+//           "choices":
+//           {
+//               "default": [<string>, <string>, ...]
+//               "2": [<string>, <string>, ...]
+//           }
+//       },
+//       ...
+//   ]
+// }
+
+{
+  "questions": [
+    {
+      "section": "Start",
+      "question": "Could you please describe the core idea of your app in a few sentences?",
+      "answer": "I want to build an app that allows a user to have a conversation with AI to have AI agents then develop the codebase. If I'm working with an existing codebase, then I want to be able to instruct the agents on what I want to do, add or update to it. I also want the user to be able to login directly with GitHub."
+    },
+    {
+      "section": "Start",
+      "question": "What are the key features or functionalities you envision for your app?",
+      "answer": "1. User Authentication via GitHub. 2. Chat interface for natural language-based communication with the AI agent. 3. Project setup wizard to guide users through the initial configuration. 4. Code generation, modification, and review functionalities. 5. AI to handle all GitHub interactions for directly pushing code or creating Pull Requests. 6. A dashboard to monitor and manage multiple projects. 10. Detailed logging and analytics for project activity."
+    },
+    {
+      "section": "Start",
+      "question": "Will there be different kinds of users? (e.g., admin users, regular users)",
+      "answer": "No, there will be just regular users. Users will connect their GitHub accounts and be able to start a development cycle."
+    },
+    {
+      "section": "Start",
+      "question": "How do you envision making your app available? (e.g., website, mobile app, both)",
+      "answer": "Website"
+    },
+    {
+      "section": "Codebase",
+      "question": "Now do you want to build this codebase as the backend or the frontend for your app? We'll connect the two later",
+      "answer": "Frontend",
+      "options": {
+        "default": ["Frontend", "Backend"]
+      }
+    },
+    {
+      "section": "Codebase",
+      "question": "Which framework do you want to use for the <frontend/backend>? (e.g., React, Angular, Next)",
+      "answer": "Nextjs",
+      "options": {
+        "frontend": ["React", "Angular", "Nextjs", "Vue", "You decide"],
+        "backend": ["Express", "Django", "Flask", "You decide"]
+      }
+    },
+    {
+      "section": "Codebase",
+      "question": "What kind of database technology are you considering or already using? Or do you want my recommendation?",
+      "answer": "MongoDB",
+      "options": {
+        "default": ["MongoDB", "PostgreSQL", "MySQL", "You decide"]
+      }
+    },
+    {
+      "section": "Start",
+      "question": "Do you want to implement basic payment related infrastructure and pages with Stripe?",
+      "answer": ""
+    },
+    {
+      "section": "Start",
+      "question": "Are there any specific legal or compliance considerations, such as ADA , WCAG or GDPR?",
+      "answer": ""
+    },
+    {
+      "section": "Codebase",
+      "question": "What kind of user authentication is required? e.g. OAuth (sign in with Google etc.), JWT Email sign-in, Basic or something else I haven't mentioned?",
+      "answer": ""
+    },
+    {
+      "section": "Codebase",
+      "question": "Do you have any third-party APIs, particular libraries or services you want to integrate into your app? You can give me the links to their api docs and I'll  implement them in the codebase.",
+      "answer": ""
+    },
+    {
+      "section": "Codebase",
+      "question": "Do you want to add testing to your codebase now, or would you prefer to handle that later? Testing can include things like unit tests (for individual functions/components) or end-to-end tests (testing the complete workflow of your app).",
+      "answer": ""
+    }
+  ]
+}
