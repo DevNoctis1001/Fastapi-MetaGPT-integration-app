@@ -1,0 +1,10 @@
+# ABOUT PROJECTX
+
+Url: https://www.projectxlabs.co/
+Description: Build your startup in minutes, not weeks with AI agents. Ditch the late night coding, Upwork freelancers, and boilerplate headaches by outsourcing your frontend| development to AI agents. All you need is your Github. 👾ProjectX is the easiest way to fully automate building on your full stack apps with AI. Simply consult with AI, review the plans, and watch while AI agents take care of the busywork in minutes 👾.Tech Stack: Fastapi, mongodb, nextjs, typescript, tailwind
+
+# How the App works
+
+Here's a high level of how it works for you: You login with your github, then on the dashboard you can select a repo to start working on or create a new one - then you start a new development cycle on the selected codebase (I'm not sure exactly what to create on the dashboard, a sidebar with the repos and on the right show the code to clone the repo and see the last cycle branches and commits pushed by ProjectX).
+
+The first real step is you then consult with an ai in an ai agent chat window that will ask you all the right questions about what you want to build or do - the ai chat will also be capable of generating easy button suggestions in the chat to give the user options to pick from when relevant, [also make one of these buttons an option to just use the AI's recommendation". Then the ai will start planning how to build/do what you've described (through creating real documents for itself), then when you approve of the planning, the ai will get to work coding on the codebase. It will initiate a backend development ai agent cycle that pushes updates and progress to the user. Then when the agents are done with the work, they will push their code into an appropriately named branch for the prototype they just build. Then the user will simply review the tasks and work that was done and give their revision feedback - this will be stored, and then the cycle is completed and the user can start another cycle (and also choose to include the revision feedback), iterate using the revision feedback or deploy their app.
